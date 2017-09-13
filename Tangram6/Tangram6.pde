@@ -271,7 +271,7 @@ void mouseReleased() {
         espacios ++;
       }
     }
-    if(espacios < 2500 + relleno && barra != 10){
+    if(espacios < 2500 + relleno && (barra != 10 || barra != 12)){//Linea editada, me había faltado el condicional de barra !=12.
       traslapo = true;
     }
     if(traslapo){
